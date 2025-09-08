@@ -1,7 +1,11 @@
+import React from 'react';
+import Aboutus from './pages/aboutus';
+import GlobalStyle from './components/globalstyle';
 function App() {
   return (
     <div className="App">
-       <h1>Film</h1>
+      <GlobalStyle />
+      <Aboutus />
     </div>
   );
 }
