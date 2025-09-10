@@ -1,6 +1,6 @@
 import  { createGlobalStyle } from "styled-components";
 
-const GlobalStyle = createGlobalStyle `
+const GlobalStyle = createGlobalStyle`
 
 *{
     margin: 0;
@@ -9,7 +9,8 @@ const GlobalStyle = createGlobalStyle `
 }
 
 body{
-    background: #1b1b1b
+    background: #1b1b1b;
+    font-family: 'Inter', sans-serif;
 }
 
 button{
@@ -21,6 +22,7 @@ button{
     background: transparent;
     color: white;
     transition: all 0.3s ease;
+    font-family: 'Inter', sans-serif;
     &:hover{
         background-color: #23d997;
         color: white;
@@ -50,6 +52,6 @@ button{
         font-size: 1.4rem;
         line-height: 150%;
     }
-`
+`;
 
 export default GlobalStyle;
