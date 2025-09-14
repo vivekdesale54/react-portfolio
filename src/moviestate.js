@@ -1,4 +1,3 @@
-import React from "react";
 import athlete from "./img/athlete.jpg";
 import capture from "./img/capture.png";
 // import Heroimage from "./img/Heroimage/jpg";
@@ -16,12 +15,17 @@ export const MovieState = () => {
         {
           title: "Truly a masterpiece",
           description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolore ducimus quae.",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. .",
         },
         {
           title: "Fresh look on a brutal sport",
           description:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita possimus consequuntur natus omnis praesentium labore consequatur fugiat. Accusantium cumque alias dolorem dignissimos repellendus quod quasi laboriosam eligendi, delectus architecto quae!",
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. laboriosam eligendi, delectus architecto quae!",
+        },
+        {
+          title: "It's okay Imao",
+          description:
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. delectus architecto quae!",
         },
       ],
     },
@@ -44,4 +48,3 @@ export const MovieState = () => {
     },
   ];
 };
-

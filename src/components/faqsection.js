@@ -1,7 +1,7 @@
-import React from 'react';
-import styled from 'styled-components';
-import { About } from '../style';
-
+import styled from "styled-components";
+import { About } from "../style";
+import Toggle from "./toggle";
+import { LayoutGroup } from "framer-motion";
 
 const FaqSection = () => {
   return (
@@ -10,46 +10,46 @@ const FaqSection = () => {
         <h2>
           Any Questions? <span>FAQ</span>
         </h2>
-        <div>
-          <h4>How do I start</h4>
-          <div className="answer">
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae.
-            </p>
-          </div>
-          <div className="faq-line"></div>
-        </div>
-        <div className="question">
-          <h4>Daily schedule</h4>
-          <div className="answer">
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae.
-            </p>
-          </div>
-          <div className="faq-line"></div>
-        </div>
-        <div className="question">
-          <h4>Different payment methods</h4>
-          <div className="answer">
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae.
-            </p>
-          </div>
-          <div className="faq-line"></div>
-        </div>
-        <div className="question">
-          <h4>What products do you offer.</h4>
-          <div className="answer">
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae.
-            </p>
-          </div>
-          <div className="faq-line"></div>
-        </div>
+        <LayoutGroup>
+          <Toggle title="How do I start?">
+            <div className="answer">
+              <p>Lorem ipsum dolor sit amet.</p>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae.
+              </p>
+            </div>
+          </Toggle>
+        </LayoutGroup>
+        <LayoutGroup>
+          <Toggle title="Daily schedule">
+            <div className="answer">
+              <p>Lorem ipsum dolor sit amet.</p>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae.
+              </p>
+            </div>
+          </Toggle>
+        </LayoutGroup>
+        <LayoutGroup>
+          <Toggle title="Different payment methods">
+            <div className="answer">
+              <p>Lorem ipsum dolor sit amet.</p>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae.
+              </p>
+            </div>
+          </Toggle>
+        </LayoutGroup>
+        <LayoutGroup>
+          <Toggle title="What products do you offer">
+            <div className="answer">
+              <p>Lorem ipsum dolor sit amet.</p>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae.
+              </p>
+            </div>
+          </Toggle>
+        </LayoutGroup>
       </Faq>
     </div>
   );

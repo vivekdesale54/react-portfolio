@@ -1,11 +1,10 @@
-import React from 'react';
-import Clock from '../img/clock.png';
-import money from '../img/money.png';
-import capture from '../img/capture.png';
-import team from '../img/team.png';
-import homee2 from '../img/homee2.jpg';
-import styled from 'styled-components';
-import { About, Description, Image } from '../style';
+import Clock from "../img/clock.png";
+import money from "../img/money.png";
+import capture from "../img/capture.png";
+import team from "../img/team.png";
+import homee2 from "../img/homee2.jpg";
+import styled from "styled-components";
+import { About, Description, Image } from "../style";
 
 const ServicesSection = () => {
   return (
@@ -80,6 +79,5 @@ const Card = styled.div`
     padding: 1rem;
   }
 `;
-
 
 export default ServicesSection;
