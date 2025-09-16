@@ -9,14 +9,14 @@ const Wave = () => {
       xmlns="http://www.w3.org/2000/svg"
     >
       <motion.path
-        initial={{ pathLength: 0, pathOffset: 1 }}
+        initial={{ pathLength: 0, pathOffset: 0 }}
         animate={{ pathLength: 1, pathOffset: 0 }}
         transition={{ duration: 1 }}
         d="M4.99609 390.998C4.99609 390.998 126.5 10.9983 303.5 5.49825C480.5 -0.00174548 608.5 220.499 885 543.498C1161.5 866.498 1418.51 470.763 1445 390.998"
-        stroke="#FFC9FC"
-        stroke-opacity="0.1"
-        stroke-width="10"
-        stroke-linecap="round"
+        stroke="#D96ED4"
+        strokeOpacity="0.5"
+        strokeWidth="10"
+        strokeLinecap="round"
       />
     </WaveSvg>
   );
